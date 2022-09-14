@@ -21,8 +21,7 @@ export const initializeAPI = () => {
 		projectId: 'my-wallet-c5105',
 		storageBucket: 'my-wallet-c5105.appspot.com',
 		messagingSenderId: '347855691746',
-		appId: '1:347855691746:web:5e8c41c1ddf3f9cea8a3bb',
-		measurementId: 'G-9J2R49XF8L'
+		appId: '1:347855691746:web:5e8c41c1ddf3f9cea8a3bb'
 	})
 
 	getFirestore()
