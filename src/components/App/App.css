@@ -1,0 +1,10 @@
+.app {
+  padding: 30px 0;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 30px;
+  row-gap: 50px;
+}
