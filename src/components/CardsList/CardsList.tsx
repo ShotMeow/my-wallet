@@ -22,7 +22,7 @@ const CardsList: FC = () => {
 	}
 
 	return (
-		<section className="list">
+		<section className="cards-list">
 			{cardsStore.cards.map(item => (
 				<CardItem
 					key={item.id}

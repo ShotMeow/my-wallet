@@ -1,0 +1,4 @@
+.history-list {
+    max-height: 420px;
+    overflow: auto;
+}
