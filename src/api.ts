@@ -1,27 +1,27 @@
 import { initializeApp } from 'firebase/app'
 import {
 	getFirestore,
+	collection,
+	getDocs,
+	query,
+	orderBy,
+	addDoc,
+	Timestamp,
 	getDoc,
 	doc,
 	updateDoc,
-	Timestamp,
-	addDoc,
-	collection,
-	query,
-	orderBy,
-	getDocs,
 	deleteDoc
 } from 'firebase/firestore'
-import { CardColor, CardsAPI, OperationAPI, OperationType } from './types'
+import { CardsAPI, CardColor, OperationAPI, OperationType } from './types'
 
 export const initializeAPI = () => {
 	initializeApp({
-		apiKey: 'AIzaSyCXs9C-UcHUiYSoEhdgjWSH-0zCRk5GlsA',
-		authDomain: 'my-wallet-c5105.firebaseapp.com',
-		projectId: 'my-wallet-c5105',
-		storageBucket: 'my-wallet-c5105.appspot.com',
-		messagingSenderId: '347855691746',
-		appId: '1:347855691746:web:5e8c41c1ddf3f9cea8a3bb'
+		apiKey: 'AIzaSyAK-0EfzP2T7v5jlxW48LhZXFCd_pe4z8w',
+		authDomain: 'karpov-webinars.firebaseapp.com',
+		projectId: 'karpov-webinars',
+		storageBucket: 'karpov-webinars.appspot.com',
+		messagingSenderId: '771468280499',
+		appId: '1:771468280499:web:3132d451a71c38647ba6c6'
 	})
 
 	getFirestore()

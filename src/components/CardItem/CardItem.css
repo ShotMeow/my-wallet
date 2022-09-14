@@ -1,0 +1,52 @@
+.item {
+    position: relative;
+    padding: 12px;
+    aspect-ratio: 1.6/1;
+    width: 270px;
+    background-color: black;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-shrink: 0;
+    color: black;
+}
+
+.item-blue {
+    background-color: #3344d3;
+    color: #3344d3;
+}
+
+.item-pink {
+    background-color: #e75166;
+    color: #e75166;
+}
+
+.item-cyan {
+    background-color: #61c8d9;
+    color: #61c8d9;
+}
+
+.item-dark-blue {
+    background-color: #000537;
+    color: #000537;
+}
+
+.item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 0;
+    box-shadow: 0 3px 10px currentColor;
+    opacity: 0.5;
+    border-radius: inherit;
+}
+
+.item-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
