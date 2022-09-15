@@ -2,7 +2,16 @@
 
 <img align="center" src="https://github.com/ShotMeow/my-wallet/blob/main/public/github/present.png?raw=true">
 
-## Доступные скрипты
+<h2 align="center">Стэк технологий</h2>
+<ul>
+  <li>React</li>
+  <li>TypeScript</li>
+  <li>Ant Design</li>
+  <li>Firebase</li>
+  <li>MobX</li>
+</ul>
+
+<h2 align="center">Доступные скрипты</h2>
 
 ### `npm run dev`
 
